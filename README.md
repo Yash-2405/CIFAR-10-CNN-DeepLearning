@@ -22,20 +22,31 @@ Each class has 6,000 images, split into 50,000 training images and 10,000 testin
 # Data Preprocessing
 
 Loading the Dataset: The dataset is loaded using TensorFlow's keras.datasets module.
+
 Normalization: Pixel values are normalized to the range [0, 1] to facilitate faster and more efficient training.
+
 Data Augmentation: Techniques such as rotation, flipping, and zooming are applied to the training images to increase the diversity of the dataset and improve model generalization.
 
 # Model Architecture
 
 The CNN architecture is built using TensorFlow and Keras, consisting of:
+
 Convolutional layers with ReLU activation functions
+
 Max-pooling layers
+
 Dropout layers to prevent overfitting
+
 Dense layers with softmax activation for the output layer
+
 Training the Model
+
 Loss Function: Categorical cross-entropy
+
 Optimizer: Adam
+
 Epochs: 50
+
 Batch Size: 64
 
 # Model Evaluation
