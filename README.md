@@ -7,16 +7,27 @@ This project demonstrates the application of Convolutional Neural Networks (CNNs
 # Dataset Description
 
 The CIFAR-10 dataset contains the following classes:
+
 Airplanes
+
 Cars
+
 Birds
+
 Cats
+
 Deer
+
 Dogs
+
 Frogs
+
 Horses
+
 Ships
+
 Trucks
+
 Each class has 6,000 images, split into 50,000 training images and 10,000 testing images.
 
 # Data Preprocessing
